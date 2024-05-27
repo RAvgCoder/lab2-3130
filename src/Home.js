@@ -6,7 +6,7 @@ function Home({setCount}) {
 
     useEffect(() => {
         setCount(p => p + 1);
-    }, []);
+    },[setCount]);
 
     return (
         <div className="Home">
